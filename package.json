@@ -1,0 +1,32 @@
+{
+  "name": "umi-plugin-wujie",
+  "version": "0.0.1",
+  "description": "umi3 wujie plugin",
+  "main": "dist/cjs/index.js",
+  "scripts": {
+    "dev": "father dev",
+    "build": "father build",
+    "build:deps": "father prebundle",
+    "prepublishOnly": "father doctor && npm run build"
+  },
+  "keywords": [],
+  "authors": [
+    "qiyedao <jiaoy169@gmail.com>"
+  ],
+  "license": "MIT",
+  "files": [
+    "dist",
+    "compiled"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "father": "^4.1.6"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "umi": "3.5.37",
+    "wujie-react": "^1.0.6"
+  }
+}
