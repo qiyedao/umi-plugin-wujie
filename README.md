@@ -3,16 +3,9 @@
 [![NPM version](https://img.shields.io/npm/v/umi-plugin-wujie.svg?style=flat)](https://npmjs.org/package/umi-plugin-wujie)
 [![NPM downloads](http://img.shields.io/npm/dm/umi-plugin-wujie.svg?style=flat)](https://npmjs.org/package/umi-plugin-wujie)
 
-## Install
+## install
 
-```bash
-$ yarn install
-```
-
-```bash
-$ npm run dev
-$ npm run build
-```
+pnpm add umi-plugin-wujie -D
 
 ## Options
 
@@ -35,6 +28,17 @@ export default defineConfig({
         }
     }
 });
+```
+
+## devlop
+
+```bash
+$ pnpm i
+```
+
+```bash
+$ pnpm run dev
+$ pnpm run build
 ```
 
 ## LICENSE
