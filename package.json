@@ -1,6 +1,6 @@
 {
   "name": "umi-plugin-wujie",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "umi3 wujie plugin",
   "main": "dist/cjs/index.js",
   "scripts": {
